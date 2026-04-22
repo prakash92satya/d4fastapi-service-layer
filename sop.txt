@@ -1,0 +1,16 @@
+d4fastapi-service-layer
+FastAPI project with clean architecture (Controller-Service-Repository), async SQLAlchemy, and dependency injection
+
+
+d4fastapi-service-layer
+
+python -m venv venv
+
+pip install fastapi uvicorn sqlalchemy pytest httpx
+
+
+uvicorn app.main:app --reload
+
+pytest tests/test_task.py
+
+
